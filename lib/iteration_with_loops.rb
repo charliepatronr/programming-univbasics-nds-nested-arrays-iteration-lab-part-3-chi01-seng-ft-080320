@@ -21,7 +21,7 @@ def join_nested_strings(src)
   i +=1
   
  end
-p new_arr
+new_arr.join(' ')
 end
 
 
