@@ -8,7 +8,7 @@ def join_nested_strings(src)
    
    j = 0
    
-   while j < src.length[i] do 
+   while j < src[i].length do 
      
      if (src[i][j].is_a? String)
        new_arr.push(src[i][j])
